@@ -44,7 +44,7 @@ public class NumbersActivity extends AppCompatActivity {
 
 
         Log.v("NumbersActivity","Word at index 0: " + words.get(0));
-        Log.v("NumbersActivity","Word at index 0: " + words.get(1));
-        Log.v("NumbersActivity","Word at index 0: " + words.get(2));
+        Log.v("NumbersActivity","Word at index 1: " + words.get(1));
+        Log.v("NumbersActivity","Word at index 2: " + words.get(2));
     }
 }
