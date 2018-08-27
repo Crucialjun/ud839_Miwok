@@ -45,12 +45,12 @@ public class NumbersActivity extends AppCompatActivity {
         words.add("Ten");
         words.add("Eleven");
 
-        int lengthOfArray = words.size();
+
         int startPoint = 0;
 
         LinearLayout rootView = findViewById(R.id.rootView);
 
-        while(startPoint < lengthOfArray) {
+        while(startPoint <words.size()) {
             TextView wordView = new TextView(this);
             wordView.setText(words.get(startPoint));
             rootView.addView(wordView);
