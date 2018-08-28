@@ -46,15 +46,17 @@ public class NumbersActivity extends AppCompatActivity {
         words.add("Eleven");
 
 
-        int startPoint = 0;
+
 
         LinearLayout rootView = findViewById(R.id.rootView);
 
-        while(startPoint <words.size()) {
+        for ( int startPoint = 0; startPoint < words.size() ;startPoint++) {
             TextView wordView = new TextView(this);
             wordView.setText(words.get(startPoint));
             rootView.addView(wordView);
-            startPoint++;
         }
+
+
+
     }
 }
