@@ -33,7 +33,7 @@ public class NumbersActivity extends AppCompatActivity {
         setContentView(R.layout.activity_numbers);
 
         //Initialize the string array
-        ArrayList<String> words = new ArrayList<String>();
+        ArrayList<String> words = new ArrayList<>();
 
         words.add("One");
         words.add("Two");
@@ -50,10 +50,10 @@ public class NumbersActivity extends AppCompatActivity {
 
 
 
-        ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>
-                (this,android.R.layout.simple_list_item_1);
+        ArrayAdapter<String> itemsAdapter = new ArrayAdapter<>
+                (this,android.R.layout.simple_list_item_1,words);
 
-        ListView listView = (ListView) findViewById(R.id.list);
+        ListView listView = findViewById(R.id.list);
 
         listView.setAdapter(itemsAdapter);
 
