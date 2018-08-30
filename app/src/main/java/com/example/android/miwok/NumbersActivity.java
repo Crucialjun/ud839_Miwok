@@ -47,12 +47,11 @@ public class NumbersActivity extends AppCompatActivity {
         words.add(new Word ("Ten","na'aacha"));
 
 
-        WordAdapter<Word> itemsAdapter = new ArrayAdapter<>
-                (this,R.layout.list_item,words);
+        WordAdapter adapter = new WordAdapter(this,words);
 
         ListView listView = findViewById(R.id.list);
 
-        listView.setAdapter(itemsAdapter);
+        listView.setAdapter(adapter);
 
 
     }
