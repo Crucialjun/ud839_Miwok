@@ -35,16 +35,16 @@ public class NumbersActivity extends AppCompatActivity {
         //Initialize the string array
         ArrayList<Word> words = new ArrayList<>();
 
-        words.add(new Word ("One","Lutti"));
-        words.add(new Word ("Two","Otiiko"));
-        words.add(new Word ("Three","tolookosu"));
-        words.add(new Word ("Four","Oyyisa"));
-        words.add(new Word ("Five","Massokka"));
-        words.add(new Word ("Six","Temmokka"));
-        words.add(new Word ("Seven","Kenekaku"));
-        words.add(new Word ("Eight","Kawinta"));
-        words.add(new Word ("Nine","Wo'e"));
-        words.add(new Word ("Ten","na'aacha"));
+        words.add(new Word ("One","Lutti",R.mipmap.number_one));
+        words.add(new Word ("Two","Otiiko",R.mipmap.number_two));
+        words.add(new Word ("Three","tolookosu",R.mipmap.number_three));
+        words.add(new Word ("Four","Oyyisa",R.mipmap.number_four));
+        words.add(new Word ("Five","Massokka",R.mipmap.number_five));
+        words.add(new Word ("Six","Temmokka",R.mipmap.number_six));
+        words.add(new Word ("Seven","Kenekaku",R.mipmap.number_seven));
+        words.add(new Word ("Eight","Kawinta",R.mipmap.number_eight));
+        words.add(new Word ("Nine","Wo'e",R.mipmap.number_nine));
+        words.add(new Word ("Ten","na'aacha",R.mipmap.number_ten));
 
 
         WordAdapter adapter = new WordAdapter(this,words);

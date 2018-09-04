@@ -31,16 +31,16 @@ public class FamilyActivity extends AppCompatActivity {
         //Initialize the string array
         ArrayList<Word> words = new ArrayList<>();
 
-        words.add(new Word ("father","әpә"));
-        words.add(new Word ("mother","әṭa"));
-        words.add(new Word ("son","angsi"));
-        words.add(new Word ("daughter","tune"));
-        words.add(new Word ("older brother","taachi"));
-        words.add(new Word ("younger brother","chalitti"));
-        words.add(new Word ("older sister","teṭe"));
-        words.add(new Word ("younger sister","kolliti"));
-        words.add(new Word ("grandmother","ama"));
-        words.add(new Word ("grandfather","paapa"));
+        words.add(new Word ("father","әpә",R.mipmap.family_father));
+        words.add(new Word ("mother","әṭa",R.mipmap.family_mother));
+        words.add(new Word ("son","angsi",R.mipmap.family_son));
+        words.add(new Word ("daughter","tune",R.mipmap.family_daughter));
+        words.add(new Word ("older brother","taachi",R.mipmap.family_older_brother));
+        words.add(new Word ("younger brother","chalitti",R.mipmap.family_younger_brother));
+        words.add(new Word ("older sister","teṭe",R.mipmap.family_older_sister));
+        words.add(new Word ("younger sister","kolliti",R.mipmap.family_younger_sister));
+        words.add(new Word ("grandmother","ama",R.mipmap.family_grandmother));
+        words.add(new Word ("grandfather","paapa",R.mipmap.family_grandfather));
 
 
         WordAdapter adapter = new WordAdapter(this,words);
