@@ -43,7 +43,7 @@ public class FamilyActivity extends AppCompatActivity {
         words.add(new Word ("grandfather","paapa",R.mipmap.family_grandfather));
 
 
-        WordAdapter adapter = new WordAdapter(this,words);
+        WordAdapter adapter = new WordAdapter(this,words,R.color.category_family);
 
         ListView listView = findViewById(R.id.list);
 
